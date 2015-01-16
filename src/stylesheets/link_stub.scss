@@ -1,0 +1,20 @@
+@import "./common";
+
+.link-stub {
+  border-bottom: 1px solid black;
+  position:relative;
+  padding: 20px;
+
+  a {
+    text-decoration: none; 
+  }
+}
+
+.link-stub-avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.link-stub-username {
+  font-size: 11px;
+}

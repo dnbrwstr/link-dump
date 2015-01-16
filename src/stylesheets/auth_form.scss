@@ -1,0 +1,86 @@
+@import "./common";
+
+.auth-form,
+.add-link-form {
+  &.is-active { display: block; }
+}
+
+.auth-form {
+  @include default-border();
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+}
+
+.auth-form-link {
+  text-decoration: none;
+
+  &.is-active,
+  &:hover { text-decoration: underline; }
+}
+
+.ld-form {
+  position: relative;
+
+  input {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  input[type=submit] {
+    width: auto;
+    padding: 10px 20px;
+  }
+
+  .ld-form-label {
+    margin-bottom: 20px;
+  }
+}
+
+.ld-form-field-set {
+  margin-bottom: 10px;
+}
+
+.ld-form-avatar-editor {
+  background: #EFEFEF;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ld-form-avatar-editor-inner {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.ld-form-error {
+  color: red;
+}
+
+.ld-form-submit-container {
+  text-align: center;
+}
+
+.ld-form-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: .5;
+}
+
+.ld-form-success {
+  text-align: center;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.ld-form-success-text {
+  color: $gray;
+  margin-bottom: 10px;
+}

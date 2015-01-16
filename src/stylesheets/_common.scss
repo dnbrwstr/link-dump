@@ -1,0 +1,14 @@
+$green: rgb(0, 255, 0);
+$gray: #BBB;
+
+@mixin default-border {
+  border: 1px solid $gray;
+  border-radius: 3px;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}  
+}

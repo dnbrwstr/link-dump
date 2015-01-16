@@ -1,0 +1,21 @@
+@import "./common";
+
+.add-link-form {
+  margin-top: 14px;
+
+  input {
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+  }
+
+  &.is-invalid input { border-color: red;}
+}
+
+.add-link-form-add-button {
+  @include default-border;
+  display: inline-block;
+  margin-left: 5px;
+  color: $gray;
+  padding: 10px;
+}

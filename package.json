@@ -1,0 +1,42 @@
+{
+  "name": "core-interaction-link-dump",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-react": "*",
+    "gulp-concat": "*",
+    "streamee": "*",
+    "gulp-browserify": "*",
+    "gulp-wrap-define": "*",
+    "gulp-nodemon": "*",
+    "express": "*",
+    "coffee-script": "~1.6.0"
+  },
+  "dependencies": {
+    "browserify": "^8.0.3",
+    "chalk": "^0.5.1",
+    "gulp-if": "^1.2.5",
+    "gulp-plumber": "^0.6.6",
+    "gulp-prefix": "0.0.13",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-uglify": "^1.0.2",
+    "minimist": "^1.1.0",
+    "moment": "^2.9.0",
+    "react": "^0.12.2",
+    "reactify": "^0.17.1",
+    "uglify": "^0.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watch": "^0.13.0",
+    "watchify": "^2.2.1",
+    "wolfy87-eventemitter": "^4.2.11"
+  }
+}
